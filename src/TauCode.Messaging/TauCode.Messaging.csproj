@@ -8,8 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
-    <PackageReference Include="TauCode.Messaging.Abstractions" Version="1.9.1-alpha.1.2023-05-05.11-00" />
-    <PackageReference Include="TauCode.Working" Version="1.9.1-alpha.1.2023-05-05.13-00" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TauCode.Messaging.Abstractions\TauCode.Messaging.Abstractions.csproj" />
+    <ProjectReference Include="..\TauCode.Working\TauCode.Working.csproj" />
   </ItemGroup>
 
 </Project>

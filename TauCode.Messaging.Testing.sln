@@ -24,9 +24,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{4DB60580
 		nuget\TauCode.Messaging.Testing.nuspec = nuget\TauCode.Messaging.Testing.nuspec
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.Messaging.Testing", "src\TauCode.Messaging.Testing\TauCode.Messaging.Testing.csproj", "{D813BCD5-F65C-4733-8B60-45535002E29E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Messaging.Testing", "src\TauCode.Messaging.Testing\TauCode.Messaging.Testing.csproj", "{D813BCD5-F65C-4733-8B60-45535002E29E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.Messaging.Testing.Tests", "test\TauCode.Messaging.Testing.Tests\TauCode.Messaging.Testing.Tests.csproj", "{C7B929D2-919D-4F23-9CC6-E71946AA4C54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Messaging.Testing.Tests", "test\TauCode.Messaging.Testing.Tests\TauCode.Messaging.Testing.Tests.csproj", "{C7B929D2-919D-4F23-9CC6-E71946AA4C54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Messaging.Abstractions", "src\TauCode.Messaging.Abstractions\TauCode.Messaging.Abstractions.csproj", "{8E7BC776-6958-470E-B877-5F76D5827ACF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Messaging", "src\TauCode.Messaging\TauCode.Messaging.csproj", "{00B28E1F-7766-4EB4-8636-263AAED2D462}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Working", "src\TauCode.Working\TauCode.Working.csproj", "{F0E3552B-CCAA-445D-912A-86FC32A8DAA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Messaging.EasyNetQ", "src\TauCode.Messaging.EasyNetQ\TauCode.Messaging.EasyNetQ.csproj", "{F8D7EA8F-4ADD-407F-A6BC-D54AE90CEEF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Working.Tests", "test\TauCode.Working.Tests\TauCode.Working.Tests.csproj", "{8153D296-C65E-4904-AC24-93A4718FCD16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Messaging.Abstractions.Tests", "test\TauCode.Messaging.Abstractions.Tests\TauCode.Messaging.Abstractions.Tests.csproj", "{7DDE0D95-E9CF-45F1-91C5-ECC2FF331C7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Messaging.EasyNetQ.Tests", "test\TauCode.Messaging.EasyNetQ.Tests\TauCode.Messaging.EasyNetQ.Tests.csproj", "{9A2BC2FC-0969-4421-8D99-3EF35F78CC02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Messaging.Tests", "test\TauCode.Messaging.Tests\TauCode.Messaging.Tests.csproj", "{A2D70600-0D03-4884-B22D-9BFD833F401C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +58,38 @@ Global
 		{C7B929D2-919D-4F23-9CC6-E71946AA4C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7B929D2-919D-4F23-9CC6-E71946AA4C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7B929D2-919D-4F23-9CC6-E71946AA4C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7BC776-6958-470E-B877-5F76D5827ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7BC776-6958-470E-B877-5F76D5827ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7BC776-6958-470E-B877-5F76D5827ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7BC776-6958-470E-B877-5F76D5827ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B28E1F-7766-4EB4-8636-263AAED2D462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B28E1F-7766-4EB4-8636-263AAED2D462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B28E1F-7766-4EB4-8636-263AAED2D462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B28E1F-7766-4EB4-8636-263AAED2D462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E3552B-CCAA-445D-912A-86FC32A8DAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E3552B-CCAA-445D-912A-86FC32A8DAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E3552B-CCAA-445D-912A-86FC32A8DAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E3552B-CCAA-445D-912A-86FC32A8DAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D7EA8F-4ADD-407F-A6BC-D54AE90CEEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D7EA8F-4ADD-407F-A6BC-D54AE90CEEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D7EA8F-4ADD-407F-A6BC-D54AE90CEEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D7EA8F-4ADD-407F-A6BC-D54AE90CEEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8153D296-C65E-4904-AC24-93A4718FCD16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8153D296-C65E-4904-AC24-93A4718FCD16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8153D296-C65E-4904-AC24-93A4718FCD16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8153D296-C65E-4904-AC24-93A4718FCD16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DDE0D95-E9CF-45F1-91C5-ECC2FF331C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DDE0D95-E9CF-45F1-91C5-ECC2FF331C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DDE0D95-E9CF-45F1-91C5-ECC2FF331C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DDE0D95-E9CF-45F1-91C5-ECC2FF331C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A2BC2FC-0969-4421-8D99-3EF35F78CC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A2BC2FC-0969-4421-8D99-3EF35F78CC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A2BC2FC-0969-4421-8D99-3EF35F78CC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A2BC2FC-0969-4421-8D99-3EF35F78CC02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D70600-0D03-4884-B22D-9BFD833F401C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D70600-0D03-4884-B22D-9BFD833F401C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D70600-0D03-4884-B22D-9BFD833F401C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D70600-0D03-4884-B22D-9BFD833F401C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +97,14 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D813BCD5-F65C-4733-8B60-45535002E29E} = {00967997-EE00-436F-9598-39449A63407A}
 		{C7B929D2-919D-4F23-9CC6-E71946AA4C54} = {4349BF2D-B319-4597-8DFC-76DE23FFF243}
+		{8E7BC776-6958-470E-B877-5F76D5827ACF} = {00967997-EE00-436F-9598-39449A63407A}
+		{00B28E1F-7766-4EB4-8636-263AAED2D462} = {00967997-EE00-436F-9598-39449A63407A}
+		{F0E3552B-CCAA-445D-912A-86FC32A8DAA3} = {00967997-EE00-436F-9598-39449A63407A}
+		{F8D7EA8F-4ADD-407F-A6BC-D54AE90CEEF0} = {00967997-EE00-436F-9598-39449A63407A}
+		{8153D296-C65E-4904-AC24-93A4718FCD16} = {4349BF2D-B319-4597-8DFC-76DE23FFF243}
+		{7DDE0D95-E9CF-45F1-91C5-ECC2FF331C7D} = {4349BF2D-B319-4597-8DFC-76DE23FFF243}
+		{9A2BC2FC-0969-4421-8D99-3EF35F78CC02} = {4349BF2D-B319-4597-8DFC-76DE23FFF243}
+		{A2D70600-0D03-4884-B22D-9BFD833F401C} = {4349BF2D-B319-4597-8DFC-76DE23FFF243}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E98DE420-A4C4-4897-A768-ACB20E4F9F93}

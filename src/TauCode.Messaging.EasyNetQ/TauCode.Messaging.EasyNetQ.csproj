@@ -8,7 +8,10 @@
 
   <ItemGroup>
     <PackageReference Include="EasyNetQ" Version="7.4.3" />
-    <PackageReference Include="TauCode.Messaging" Version="1.9.1-alpha.1.2023-05-05.10-00" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TauCode.Messaging\TauCode.Messaging.csproj" />
   </ItemGroup>
 
 </Project>
