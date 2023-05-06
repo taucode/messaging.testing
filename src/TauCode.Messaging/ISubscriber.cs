@@ -6,7 +6,10 @@ public interface ISubscriber : ISlave
 {
     IServiceProvider ServiceProvider { get; }
 
-    Task<ISubscription> SubscribeAsync(Type messageHandlerType, string? topic = null, CancellationToken cancellationToken = default);
+    Task<ISubscription> SubscribeAsync(
+        Type messageHandlerType,
+        string? topic = null,
+        CancellationToken cancellationToken = default);
 
     IReadOnlyList<ISubscription> GetSubscriptions();
 }
