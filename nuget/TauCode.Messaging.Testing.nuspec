@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TauCode.Messaging.Testing</id>
-    <version>0.0.1-alpha.1.2023-05-05.10-00</version>
+    <version>0.0.2-alpha.1.2023-05-07.00-00</version>
     <authors>TauCode</authors>
     <owners>TauCode</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
